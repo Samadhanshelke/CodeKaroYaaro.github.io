@@ -1,0 +1,385 @@
+@media screen and (max-width: 1024px) {
+
+    .first-section-right img{
+      max-width:400px;
+      max-height:auto;
+      padding-top: 120px;
+     
+    }
+    .main-right-side img{
+      max-width:400px;
+      max-height:auto;
+      padding-top: 120px;
+    }
+    .adv-left-side img{
+      max-width:400px;
+      max-height:auto;
+      padding-top: 120px;
+    }
+
+    .first-section-left {
+      margin-top: 50px;
+  }
+  .open_nav{
+    display: none;
+  }
+  .advance-section>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.advance-section h1{
+
+  margin-bottom: 0px;
+}
+
+.imp-coding div{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.price-card{
+  width:300px;
+  height:800px;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+}
+.int-class .int-class-wrapper div{
+  height:500px;
+  width:300px;
+  
+}
+
+.left_1{
+  width:400px;
+}
+.footer>div{
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+}
+.footer{
+  height:100vh;
+}
+.countdown-section>div{
+  width:90%;
+}
+
+ }
+
+  @media screen and (max-width: 768px){
+    .first-section-right img{
+      max-width:260px;
+      max-height:auto;
+    }
+    .main-right-side img{
+      max-width:260px;
+      max-height:auto;
+    }
+    .first-section{
+      position: relative;
+    }
+    .navbar{
+      /* position: fixed; */
+      height:80px;
+      margin-bottom: 60px;
+      z-index: 33;
+    
+    }
+    /*Res-navbar */
+    
+    .navlinks{
+      position: absolute;
+      flex-direction: column;
+      top:90%;
+      right:0;
+      height:100vh;
+      width:100vw;
+      justify-content:center;
+      gap:50px;
+      margin: 0 auto;
+      z-index: 2;
+      background-color: black;
+      transform: translateX(-300%);
+      transition: 0.3s all ease-out;
+    }
+
+    .active_nav{
+      /* display:none; */
+      position: absolute;
+      flex-direction: column;
+      top:90%;
+      
+      right:0;
+      height:100vh;
+      width:100vw;
+      justify-content:center;
+      gap:50px;
+      margin: 0 auto;
+      z-index: 2;
+      background-color: black;
+      transform: translateX(0%);
+
+    }
+    .navlinks li a{
+      color: #fff;
+      font-size: 20px;
+    }
+    
+    .open_nav{
+      display: block;
+    }
+
+    .nav-icons{
+      display: block;
+  }
+  .popup{
+    top:520px;
+    left:20px;
+  }
+  .price-component{
+    flex-wrap: wrap;
+  }
+  .int-class .int-class-wrapper{
+    flex-wrap: wrap;
+    /* margin-bottom: 40px; */
+    gap:30px
+  }
+  .course img{
+    width:120px;
+    height:100px;
+}
+.course span{
+  /* margin-top: 10px; */
+  font-size: 18px;
+}
+.left_1{
+  width:300px;
+}
+.left_2{
+  width: 300px;
+}
+.countdown-section div{
+  flex-direction: column;
+}
+  }
+  @media screen and (max-width: 426px){
+    .first-section-right img{
+      max-width:260px;
+      max-height:auto;
+    }
+    .flex-row{
+      flex-direction: column;
+    }
+    .main-section{
+      flex-direction: column;
+    }
+
+    .imp-coding h1::after{
+      content: "";
+      position: absolute;
+      top:58px;
+      left:65px;
+      border-bottom: 4px solid red;
+      border-radius: 12px;
+      width:200px;
+      transition: 0.5s all ease-out ;
+}
+.imp-coding h1:hover::after{
+  width:0px;
+}
+
+.price-section .grade-div{
+  justify-content: center;
+  text-align:center;
+  gap:20px;
+ flex-wrap: wrap;
+ 
+}
+.price-section .grade-div{
+  height:auto;
+  
+}
+.price-card{
+  width:350px;
+}
+.int-class .int-class-wrapper div{
+   width:350px;
+   margin-bottom: 30px;
+}
+.courses{
+  flex-wrap: wrap;
+}
+.price-section .price-title::after{
+  border-bottom:none;
+}
+.imp-coding h1::after{
+  border-bottom: none;
+}
+.swiper-slide .swipper-slide-img{
+     width:350px;
+}
+.footer{
+  height: 100%;
+}
+.footer p{
+  padding: 10px 20px;
+}
+.testi-section .swiper-slide{
+  flex-direction: column;
+}
+.testi-section .swiper-slide p{
+  font-size: 15px;
+}
+
+  }
+
+  @media screen and (max-width: 376px){
+    .navlinks{
+      width: 100%;
+      
+    }
+    .imp-coding div{
+      width:90%;
+    
+      margin-left: 40px;
+      text-align: center;
+ 
+      justify-content: center;
+      align-items: center;
+
+    }
+    .imp-coding {
+      margin-left: auto;
+      margin-right:auto ;
+      justify-content: center;
+      align-items: center;
+    }
+    .imp-coding h1::after{
+      content: "";
+      position: absolute;
+      top:58px;
+      left:30px;
+      /* border-bottom: 4px solid red; */
+      border-radius: 12px;
+      width:200px;
+      transition: 0.5s all ease-out ;
+}
+.price-section .grade-div{
+  height:auto;
+  margin-left: 20px;
+}
+.price-cards .price-component{
+  margin-left: 40px;
+
+}
+.price-card{
+  width: 350px;
+}
+.int-class .int-class-wrapper div{
+  width:350px;
+}
+.int-class .int-class-wrapper {
+  margin-left:40px ;
+}
+.countdown-section>div{
+  width:100%;
+  margin-left: 40px;
+}
+
+.partners-slider .swiper-slide img{
+  width:300px;
+  /* border: 2px solid red; */
+}
+.testi-section{
+  margin-left: 40px;
+}
+.footer{
+  margin-left: 20px;
+}
+
+  }
+
+  @media screen and (max-width: 321px){
+    .navlinks{
+      width: 100%;
+      height: 120vh;
+      
+    }
+    .imp-coding div{
+       width:350px;
+       margin-left: 20px;
+
+    }
+    .imp-coding h1::after{
+      content: "";
+      position: absolute;
+      top:58px;
+      left:30px;
+      border-bottom: 4px solid red;
+      border-radius: 12px;
+      width:200px;
+      transition: 0.5s all ease-out ;
+}
+.price-cards .price-component{
+  margin-left: 80px;
+
+}
+.price-section .grade-div{
+  height:auto;
+  margin-left: 20px;
+  width:340px;
+}
+.price-card{
+  width: 340px;
+}
+.int-class .int-class-wrapper div{
+  width:340px;
+}
+.int-class .int-class-wrapper {
+  height:auto;
+  margin-left: 40px;
+  width:100%;
+}
+
+.int-class h1{
+ /* text-align: center; */
+ margin-left: 50px;
+}
+.course{
+  width:100px;
+}
+.design-course-section{
+  text-align:left;
+  margin-left: 40px;
+
+}
+.design-course-section h1{
+  width:100%;
+  text-align:left;
+
+  }
+  .partners-slider{
+      margin-left: 10px;
+  }
+  /* .swiper-slide .swipper-slide-img{
+    width:220px;
+} */
+.partners-slider .swiper-slide img{
+  width:250px;
+  /* border: 2px solid red; */
+}
+.partners-slider{
+  margin-left: 40px;
+}
+.countdown-section>div{
+  width:350px;
+  margin-left: 90px;
+}
+.testi-section{
+  margin-left: 40px;
+}
+.footer{
+  width: 370px;
+}
+}
